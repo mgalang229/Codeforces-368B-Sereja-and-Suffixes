@@ -15,7 +15,8 @@ void test_case() {
 		if(s.find(a[i]) == s.end()) {
 			s.insert(a[i]);
 			distinct[i] = (int) s.size();
-		} else {
+		}
+		else {
 			distinct[i] = distinct[i+1];
 		}
 	}
